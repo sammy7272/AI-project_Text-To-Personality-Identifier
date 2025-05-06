@@ -10,12 +10,16 @@ from nltk.corpus import wordnet
 
 class TextPreprocessor:
     def __init__(self):
+
         # Download required NLTK data
         nltk.download('punkt')
+        nltk.download('punkt_tab')
+
         nltk.download('stopwords')
         nltk.download('wordnet')
         nltk.download('averaged_perceptron_tagger')
-        
+        nltk.download('averaged_perceptron_tagger_eng')   
+
         self.lemmatizer = WordNetLemmatizer()
         self.stop_words = set(stopwords.words('english'))
         
@@ -72,7 +76,8 @@ class TextPreprocessor:
             'word_count': len(tokens),
             'unique_words': len(set(tokens)),
             'avg_word_length': sum(len(word) for word in tokens) / len(tokens) if tokens else 0,
-            'sentence_count': len(nltk.sent_tokenize(text)),
+            'sentence_count': len(nltk.sent_tokenize(processed_text)),
+
         }
         
         return features 

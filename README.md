@@ -44,7 +44,7 @@ project/
 
 ### Prerequisites
 
-- Python 3.11 or higher
+- Python 3.11
 - pip (Python package manager)
 
 ### Installation
@@ -101,28 +101,8 @@ project/
    - Graph-based career path recommendations
    - Skills-based decision tree
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - MBTI personality type system
 - Open-source machine learning libraries
 - Career development research
-
-## 📧 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/personality-career-recommender](https://github.com/yourusername/personality-career-recommender) 
